@@ -4,7 +4,6 @@ int main()
 {
    fputs("\"Programming is like building ", stdout);
    puts("a multilingual puzzle");
-
-    getchar();
-    return 0;
+   getchar();
+   return 0;
 }
