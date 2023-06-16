@@ -3,7 +3,7 @@
 int main()
 {
    fputs("\"Programming is like building ", stdout);
-   fputs("a multilingual puzzle");
+   fputs("a multilingual puzzle", stdout);
 
     getchar();
     return 0;
