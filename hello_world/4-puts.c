@@ -1,10 +1,9 @@
 #include <stdio.h>
-/* 
- * main - Prints the size of various types based on
- *        the computer it is compiled and run on..
+/**
+ * main - Entery point from the main fuction oyu can call other functions
  *
- * Return: Always 0.
-*/
+ * Return:  Always 0 (Success)
+ */
 int main(void)
 {
 fputs("\"Programming is like building ", stdout);
