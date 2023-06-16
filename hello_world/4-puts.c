@@ -1,5 +1,10 @@
 #include <stdio.h>
-/* Prints Programming is like building a multilingual puzzle */
+/* 
+ * main - Prints the size of various types based on
+ *        the computer it is compiled and run on..
+ *
+ * Return: Always 0.
+*/
 int main(void)
 {
 fputs("\"Programming is like building ", stdout);
