@@ -2,8 +2,8 @@
 #include <stdio.h>
 int main()
 {
-   fputs("\"Programming is like building ", stdout);
-   puts("a multilingual puzzle");
-   getchar();
-   return 0;
+fputs("\"Programming is like building ", stdout);
+puts("a multilingual puzzle");
+getchar();
+return 0;
 }
