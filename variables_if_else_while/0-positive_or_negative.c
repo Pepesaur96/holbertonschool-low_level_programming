@@ -2,7 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main- generates random number
+ * main- generates random numbe
+ * return- always !0
  */
 
 int main(void)
