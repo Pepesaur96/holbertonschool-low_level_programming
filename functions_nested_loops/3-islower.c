@@ -1,7 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * islower - chek for lowercase
+ * _islower - chek for lowercase
+ * @c: input variable
+ * Return: 1-0
  */
 
 int _islower(int c)
