@@ -1,12 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - entry point
- *
- * print_alphabet - variable for printing
- *
+ * main - display a-z followed by new line
+ * print_alphabet - var for printing
+ * alphabet - definition of var
  * putchar - prints
- *
  * Return: always 0 success
  */
 
