@@ -9,7 +9,8 @@
  *
  * Return: always 0 success
  */
-int main(void)
+
+void print_alphabet(void)
 {
 	char alphabet = 'a';
 
@@ -19,7 +20,5 @@ int main(void)
 		alphabet++;
 	}
 
-	_putchar('\n');
-
-	return (0);
+	putchar('\n');
 }
