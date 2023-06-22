@@ -1,5 +1,8 @@
 #include "main.h"
 #include <stdio.h>
+/**
+ * islower - chek for lowercase
+ */
 
 int _islower(int c)
 {
