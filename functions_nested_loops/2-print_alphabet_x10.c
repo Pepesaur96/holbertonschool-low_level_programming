@@ -1,22 +1,23 @@
 #include "main.h"
-#include <stdio.h>
 /**
- *print_alphabet_x10 - (prints alphabet)x10
- *Return: always !0
+ * print_alphabet_x10 - prints the lowercase alphabet x10 with _putchar
+ * Auth: N C
+ * Return: void
  */
-
 void print_alphabet_x10(void)
 {
-	int t = 0;
-	int a = 'a';
+	char alphabet = 'a';
+	int counter = 0;
 
-	while (t < 10)
+	while (counter < 10)
 	{
-		for (a = 'a'; a <= 'z'; a++)
+		while (alphabet < 123)
 		{
-			_putchar(a);
+			_putchar(alphabet);
+			alphabet++;
 		}
-		t++;
-		putchar('\n');
+		alphabet = 'a';
+		_putchar(10);
+		counter++;
 	}
 }
