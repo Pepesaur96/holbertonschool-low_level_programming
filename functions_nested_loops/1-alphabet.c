@@ -3,7 +3,7 @@
 /**
  * main - entry point
  *
- * char alphabet - variable for printing
+ * print_alphabet - variable for printing
  *
  * putchar - prints
  *
