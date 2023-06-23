@@ -12,10 +12,19 @@ void times_table(void)
 	{
 		for (row = 0; row < 10; row++)
 		{
+			if (lines * row >= 10)
+			{
 			_putchar((row * lines) / 10 + '0');
 			_putchar((row * lines) % 10 + '0');
+			}
+			else
+				_putchar(row * lines + '0');
+
+			if (row <= 9)
+			{
 			_putchar(',');
 			_putchar(' ');
+			}
 		}
 		_putchar('\n');
 	}
