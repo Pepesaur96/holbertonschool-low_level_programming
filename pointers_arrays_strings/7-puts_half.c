@@ -3,7 +3,6 @@
 /**
  * puts_half - prints the second half of a string
  * @str: input string
- * @n: count of characters to be printed
  */
 
 void puts_half(char *str)
