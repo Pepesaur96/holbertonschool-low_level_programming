@@ -15,7 +15,11 @@ int n, length = 0;
 		length++;
 	}
 
-	n = (length - 1) / 2;
+	if (length % 2 == 0)
+		n = length / 2;
+
+	else
+		n = (length - 1) / 2;
 
 	while (n <= length)
 	{
