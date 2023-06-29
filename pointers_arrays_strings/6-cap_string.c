@@ -23,8 +23,8 @@ char comp[13] = {' ', '\t', '\n', ',', ';', '.',
 		{
 			if (cap[i] == comp[n])
 			{
-				if (cap[i + 1] >= 'a' && cap[i +1] <= 'z')
-					cap[i +1] -= 32;
+				if (cap[i + 1] >= 'a' && cap[i + 1] <= 'z')
+					cap[i + 1] -= 32;
 			}
 		}
 	}
