@@ -24,7 +24,7 @@ int **ptr;
 
 	while (i < height)
 	{
-		ptr[i] = (int *)calloc(width, sizeof(int));
+		ptr[i] = (int *)malloc(width * sizeof(int));
 
 		if (ptr[i] == NULL)
 		{
