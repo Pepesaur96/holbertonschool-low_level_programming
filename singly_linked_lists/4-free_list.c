@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include "lists.h"
 /**
- * free _list - free list structure
+ * free_list - free list structure
  * @head: pointer to first node in list
  */
 
