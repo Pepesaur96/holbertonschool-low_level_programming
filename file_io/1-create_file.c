@@ -18,7 +18,7 @@ int i = 0, new_file;
 	if (text_content == NULL)
 		text_content = "";
 
-	while(text_content[i] != '\0')
+	while (text_content[i] != '\0')
 	{
 		i++;
 	}
