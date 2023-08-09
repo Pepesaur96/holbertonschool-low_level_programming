@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * ssize_t read_textfile - reads a text file and displays it to stdOUT
+ * read_textfile - reads a text file and displays it to stdOUT
  * @filename: pointer to txt file
  * @letters: # of letter it should read & print
  * Return: #of characters printed or "0" if failed
