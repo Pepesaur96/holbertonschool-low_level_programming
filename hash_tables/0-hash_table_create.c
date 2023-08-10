@@ -27,7 +27,7 @@ new_table->array = (hash_node_t **)malloc(size * sizeof(hash_node_t *));
 		return (NULL);
 	}
 
-	while(i < size)
+	while (i < size)
 	{
 	new_table->array[i] = NULL;
 	}
