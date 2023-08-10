@@ -7,7 +7,7 @@
  * @argv: list of arguments
  */
 
-void copy_to_file(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 int file_from, file_to, buffer_limit = 1024, write_limit = 0;
 char buffer[1024];
@@ -52,4 +52,6 @@ file_to = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR | S_IRGR
 
 	if (close(file_to) == -1)
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file_to), exit(100);
+
+return (0);
 }
